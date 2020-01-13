@@ -1,0 +1,19 @@
+{
+    "name": "bundled-ext",
+    "version": "0.0.0",
+    "description": "Bundled test extension",
+    "license": "MIT",
+    "dependencies": {
+        "core": "file:../core",
+        "motion": "file:../motion"
+    },
+    "files": [
+        "README.md",
+        "main.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "preferredEditor": "tsprj"
+}
